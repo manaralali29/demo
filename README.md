@@ -2,5 +2,5 @@
 
 ### An object detection model that detects visual pollution.
 
-![GPLogoEd](https://github.com/manaralali29/demo/assets/98319880/2b343dc5-d6e8-41b8-b916-8c6274039331)
+![GPLogoEd2](https://github.com/manaralali29/demo/assets/98319880/6e07b9fc-d58f-473f-b199-cc28d2339c37)
 
