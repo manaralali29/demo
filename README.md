@@ -5,9 +5,6 @@
 ![GPLogoEd2 (1)](https://github.com/manaralali29/demo/assets/98319880/5bdb79dc-3b9c-486f-86a4-9e94664c6adc)
 
 
-https://github.com/manaralali29/demo/assets/98319880/92c73bcf-369c-4049-8da0-7f4a52fc566d
-
-
 This project aims to propose a model that can accurately identify different types of visual pollution. This model will contribute to the future development of cities in Saudi Arabia that face the problem of visual pollution, and enhance the overall well-being of the population.
 
 ## How to install and implement De-Pollute Vision
