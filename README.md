@@ -1,6 +1,6 @@
 # De-Pollute Vision 
 
-## An object detection model that detects visual pollution.
+## _An object detection model that detects visual pollution.
 
 ![GPLogoEd2 (1)](https://github.com/manaralali29/demo/assets/98319880/5bdb79dc-3b9c-486f-86a4-9e94664c6adc)
 
