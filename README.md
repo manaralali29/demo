@@ -31,7 +31,7 @@ def convert_sample(xmin, ymin, xmax, ymax, width, height):
         return x_center, y_center, converted_width, converted_height
 ```
 
-5. Next is to run prepare_data.ipynb, it resizes all the images found in the dataset, to avoid annotation issues. 
+5. Next is to run prepare_data.ipynb, it resizes all the images found in the dataset, to avoid annotation issues. Creates train, valid, and test folders, as well as the YAML file specific to this prject.
 ```sh
 for i in tqdm(range(len(df_train))):
    img = cv2.imread(df_train['image_path'][i])
@@ -40,4 +40,8 @@ for i in tqdm(range(len(df_train))):
 ```
 Note: You must make this code a comment once the operation is completed to avoid running it again. 
 
-6. 
+6. After running the above files, the last file to run is yolov5.ipynb, this is where you train the model to learn how to identify the visual pollution instances. First, clone and install YOLOv5 from this link: https://github.com/ultralytics/yolov5, and then begin the training process. This will result in the creation of a separate folder in the drive titled: yolov5
+
+7. Lastly, download the yolov5 folder, install PyCharm(or IDE of choice) and open the yolov5 folder as a project. Use the code provided for the interface: vp1.py, and your best-performing model as the weight, and run it. Enjoy!
+
+   
