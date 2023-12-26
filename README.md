@@ -4,6 +4,10 @@
 
 ![GPLogoEd2 (1)](https://github.com/manaralali29/demo/assets/98319880/5bdb79dc-3b9c-486f-86a4-9e94664c6adc)
 
+
+https://github.com/manaralali29/demo/assets/98319880/92c73bcf-369c-4049-8da0-7f4a52fc566d
+
+
 This project aims to propose a model that can accurately identify different types of visual pollution. This model will contribute to the future development of cities in Saudi Arabia that face the problem of visual pollution, and enhance the overall well-being of the population.
 
 ## How to install and implement De-Pollute Vision
@@ -27,4 +31,13 @@ def convert_sample(xmin, ymin, xmax, ymax, width, height):
         return x_center, y_center, converted_width, converted_height
 ```
 
-5. Next is to run 
+5. Next is to run prepare_data.ipynb, it resizes all the images found in the dataset, to avoid annotation issues. 
+```sh
+for i in tqdm(range(len(df_train))):
+   img = cv2.imread(df_train['image_path'][i])
+   img = cv2.resize(img, (960, 540))
+   cv2.imwrite(df_train['image_path'][i], img)
+```
+Note: You must make this code a comment once the operation is completed to avoid running it again. 
+
+6. 
